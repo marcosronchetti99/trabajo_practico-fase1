@@ -35,7 +35,7 @@ INSERT INTO cliente (id,razon_social,id_cc,id_cf) VALUES (2,'smartwater',2,1);
 INSERT INTO cliente (id,razon_social,id_cc,id_cf) VALUES (3,'samsung',3,3);
 INSERT INTO cliente (id,razon_social,id_cc,id_cf) VALUES (4,'astro',4,4);
 
-DELETE FROM proyecto 
+DELETE FROM proyecto; 
 INSERT INTO proyecto (proyecto_id,descripcion,cliente_id,estado) VALUES (1,'actualizacion',1,'T');
 INSERT INTO proyecto (proyecto_id,descripcion,cliente_id,estado) VALUES (2,'reparacion',2,'I');
 INSERT INTO proyecto (proyecto_id,descripcion,cliente_id,estado) VALUES (3,'eliminado',1,'P');
@@ -52,7 +52,7 @@ INSERT INTO tareas (id,descripcion,legajo_id,estado,proyecto_id,fecha_inicio,fec
 VALUES (3,'final de proyecto',19,'F',4,'2015-07-10','2015-19-10');
 
 INSERT INTO tareas (id,descripcion,legajo_id,estado,proyecto_id,fecha_inicio,fecha_final) 
-VALUES (4,'iniciode de proyecto',34,'T',5,'2016-08-8','2017-10-10');
+VALUES (4,'inicio de de proyecto',34,'T',5,'2016-08-8','2017-10-10');
 
 
 INSERT INTO rendicion (id,horas,tipo_rendicion,tarea_id) VALUES (1,8,'H',1);
