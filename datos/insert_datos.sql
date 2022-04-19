@@ -61,7 +61,7 @@ INSERT INTO rendicion (id,horas,tipo_rendicion,tarea_id) VALUES (3,6,'H',3);
 INSERT INTO rendicion (id,horas,tipo_rendicion,tarea_id) VALUES (4,3,'s',4);
 
 
-INSERT tarea_rendicion (id_tarea,id_rendicion) VALUES (1,2);
-INSERT tarea_rendicion (id_tarea,id_rendicion) VALUES (2,1);
-INSERT tarea_rendicion (id_tarea,id_rendicion) VALUES (3,3);
-INSERT tarea_rendicion (id_tarea,id_rendicion) VALUES (4,4);
+INSERT into tarea_rendicion (id_tarea,id_rendicion) VALUES (1,2);
+INSERT into tarea_rendicion (id_tarea,id_rendicion) VALUES (2,1);
+INSERT into tarea_rendicion (id_tarea,id_rendicion) VALUES (3,3);
+INSERT into tarea_rendicion (id_tarea,id_rendicion) VALUES (4,4);
